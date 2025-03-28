@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.backRound {
+  width: 1728px;
+  background-color: tomato;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+}
+
+.headerTitle {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.naviTitle,
+.navItemOne,
+.navItemTWo,
+.navItemThree {
+  display: flex;
+  align-items: center;
+}
+
+.naviTitle {
+  column-gap: 51px;
+}
+
+.navItemOne,
+.navItemTWo {
+  column-gap: 13.25px;
+}
+
+.navItemThree {
+  padding: 6px;
+  height: fit-content;
+  border-radius: 13px;
+  background: linear-gradient(to bottom, #70ff008c, #ffffff);
+}
+
+.link {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navItemThree a {
+  font-size: 21px;
+}
+
+.in {
+  display: flex;
+  width: 25.5px;
+  color: black;
+  height: 25.5px;
+  font-size: 25px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.contactMe {
+  gap: 12px;
+  display: flex;
+  padding: 12px;
+  border-radius: 8px;
+  align-items: center;
+  background-color: #2c2c2c;
+}
